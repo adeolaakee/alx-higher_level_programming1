@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * check_cycle - checks if a linked list contains a circle
@@ -10,7 +10,7 @@
 int check_cycle(listint_t *list)
 {
 	listint_t *slow = list;
-	listint *fast = list;
+	listint_t *fast = list;
 
 	if (!list)
 		return (0);
