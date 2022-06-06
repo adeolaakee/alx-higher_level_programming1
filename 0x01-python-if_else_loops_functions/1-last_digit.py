@@ -8,7 +8,7 @@ test = number % 10
 
 # To print the last digit of negative number
 if number < 0:
-    number = -number % 10
+    test = -number % 10
 
 if test > 5:
     print(f"Last digit of {number:d} is {test:d} and is greater than 5")
